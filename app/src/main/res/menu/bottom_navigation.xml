@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/nav_2min_task_rule"
+    android:icon="@drawable/ic_2min_task"
+    android:title="2-Min Task Timer" />
+<item
+    android:id="@+id/nav_2day_rule"
+    android:icon="@drawable/ic_2day_rule"
+    android:title="2-Day Habit Maker" />
+<item
+    android:id="@+id/nav_2min_habit_rule"
+    android:icon="@drawable/ic_2min_habit"
+    android:title="2-Priority Tasks" />
+</menu>
