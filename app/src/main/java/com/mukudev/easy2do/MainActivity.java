@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //Handler to make splash screen 2 secs long
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
@@ -24,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
                 setTheme(R.style.splashScreenTheme);
             }
         }, 2000);
+        //handler
 
         setTheme(R.style.Base_Theme_Easy2Do);
         setContentView(R.layout.activity_main);
